@@ -1,0 +1,185 @@
+.contact-form-top {
+    background-color: white;
+    height: 20em;
+}
+
+.contact-form-top-header {
+    color: #333333;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 49px;
+    position: absolute;
+    top: 5em;  
+    left: 550px;
+}
+
+/* CONTACT INFO */
+
+.contact-info {
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top: 21em;
+    left: 24em;
+}
+
+.contact-info-address, .contact-info-email, .contact-info-phone {
+    width: 500px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.contact-info-address {
+    color: #333333;
+    margin-right: 2em;
+}
+
+.contact-info-email {
+    color: #333333;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+
+.contact-info-phone {
+    color: #333333;
+    margin-left: 0;
+}
+
+.contact-info-address p {
+    margin-top: 10px;
+}
+
+.contact-info-email p {
+    margin-top: 10px;
+}
+
+.contact-info-phone p  {
+    margin-top: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact-form-header {
+    color: #333333;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 370px;
+}
+
+.contact-form {
+    background-color: white;
+    width: 625px;
+    display: grid;
+    grid-template-columns: 258px 258px;
+    grid-template-rows: 100px 100px 100px;
+    column-gap: 100px;
+    margin-left: 370px;
+    margin-top: 25px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.contact-form-first-name, .contact-form-last-name, .contact-form-email, .contact-form-subject, .contact-form-message {
+    position: relative;
+}
+.contact-form-first-name input, .contact-form-last-name input, .contact-form-email input, .contact-form-subject input, .contact-form-message input, .contact-form-message input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    border: solid #333333 1.5px;
+    padding: 10px;
+}
+
+.contact-form-first-name p, .contact-form-last-name p, .contact-form-email p, .contact-form-subject p, .contact-form-message p, .contact-form-message p {
+    color: #333333;
+    font-weight: 400;
+}
+
+
+.contact-form-message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contact-form-button {
+    margin-left: 550px;
+    padding: 13px 100px;
+    border: solid #333333 1.5px;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.contact-form-button:hover {
+    background-color: #333333;
+    color: white;
+    border: solid #333333 1.5px;
+}
+
+.contact-form-button:active {
+    background-color: white;
+    color: #333333;
+    border: solid #333333 1.5px;
+}
+
+/* MAILING FORM */
+
+.mailing-form {
+    position: absolute;
+    top: 58em;
+    left: 240px;
+    background-color: #e6f1ff;
+    height: 200px;
+    width: 55em;
+}
+
+.mailing-form .mailing-form-header {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 210px;
+    color: #333333;
+}
+
+.mail-search-bar {
+    position: relative;
+    margin-left: 50px;
+    background-color: transparent;
+    width: 525px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.mail-search-bar p {
+    font-family: 'IBM Plex Serif', serif;
+    color: #333333;
+}
+
+.mail-search-bar input {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 50px;
+    padding: 10px;
+}
+
+.mail-search-bar button {
+    position: absolute;
+    top: 29px;
+    left: 480px;
+    padding: 13px 100px;
+    font-family: 'IBM Plex Serif', serif;
+    border: solid #333333 1.5px;
+}
+
+.mail-search-bar button:hover {
+    background-color: #333333;
+    color: white;
+    border: solid #333333 1.5px;
+}
+
+.mail-search-bar button:active {
+    background-color: white;
+    color: #333333;
+}
+
+.contact-footer {
+    position: absolute;
+    top: 80em;
+}

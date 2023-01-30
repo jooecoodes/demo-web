@@ -1,0 +1,94 @@
+@media only screen and (max-width: 375px) {
+	.section-banner div {
+		top: 17px;
+		left: 92px;
+		width: 13em;
+		height: 11em;
+	}
+
+	.section-banner div h1 {
+		font-size: 18px;
+		top: 5px;
+		left: 54px;
+	}
+
+	.section-banner div p {
+		font-size: 15px;
+		top: 50px;
+		left: 15px;
+		line-height: 15px;
+		justify-content: justify;
+	}
+
+/* STRANDS PART */
+	
+	/* TVL */
+
+	.strand-part {
+		display: block;
+	}
+
+	.strand-part-tvl {
+		width: 100%;
+		height: 18em;
+	} 
+
+	.strand-part img {
+		width: 100%;
+	}
+
+	.strand-part h1 {
+		top: 40px;
+		left: 2em;
+	}
+
+	/* ABM */
+
+	.strand-part2 {
+		display: block;
+	}
+
+	.strand-part-abm {
+		width: 100%;
+		height: 18em;
+	}
+
+	.strand-part2 img {
+		width: 100%;
+	}
+
+	.strand-part2 h1 {
+		top: 40px;
+		left: 124px;
+	}
+
+	/* HUMMS */
+
+	.strand-part3 {
+		display: block;
+	}
+
+	.strand-part-humms {
+		width: 100%;
+		height: 18em;
+	}
+
+	.strand-part3 img {
+		width: 100%;
+	}
+
+	.strand-part3 h1 {
+		top: 40px;
+		left: 1em;
+	}
+
+	/* FOOTER */
+
+	footer {
+		height: 50px;
+	}
+	footer p {
+		top: 0px;
+		left: 0px;
+	}
+}

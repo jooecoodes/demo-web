@@ -1,0 +1,139 @@
+@media only screen and (max-width: 375px) { 
+    html {
+        padding-top: 10px;
+    }
+
+    .landing-page {
+        width: 100%;
+        height: 15em;
+    }
+    
+    .landing-page h1{
+        font-size: 30px;
+        margin-top: -62px;
+
+        
+    }
+    
+    .landing-page p {
+        font-size: 12px;
+        top: 7em;
+        left: -28em;
+    }
+
+    /* LANDING PAGE BOTTOM */
+
+    .landing-page-bottom h1 {
+        left: 50px;
+    }
+
+    /* STRANDS */
+    
+    .strands {
+        position: relative;
+        margin-top: -0px;
+        display: block;
+        height: 110em;
+    }
+
+    .strands .tvl {
+        position: absolute;
+        height: 485px;
+        width: 250px;
+        margin-left: 70px;
+    }
+    .strands .abm {
+        position: absolute;
+        top: 36em;
+        height: 485px;
+        width: 250px;
+        margin-left: 70px;
+    }
+
+    .strands .humms {
+        position: absolute;
+        top: 72em;
+        height: 485px;
+        width: 250px;
+        margin-left: 70px;
+    }
+
+    .strands-number-tvl, .strands-number-abm, .strands-number-humms {
+        left: 5em;
+    }
+    
+    /* INSIDE */
+
+    .strands .tvl h1 { 
+        top: 2em;
+        left: 100px;
+    }
+    
+    .strands .tvl p {
+        top: 6em;
+        width: 10em;
+    }
+    
+    .strands .abm h1 { 
+        top: 2em;
+        left: 88px;
+    }
+    
+    .strands .abm p {
+        top: 6em;
+        width: 10em;
+    }
+    
+    .strands .humms h1 { 
+        top: 2em;
+        left: 70px;
+    }
+    
+    .strands .humms p {
+        top: 6em;
+        width: 10em;
+    }
+    
+    /* STRANDS FINAL DESCRIPTION */
+
+    .strands-tvl {
+        display: block;
+        text-align: center;
+        background-color: #e6deca;
+        height: 25em;
+    }
+    
+    .strands-abm {
+        display: block;
+        text-align: center;
+        background-color: #c8e0fe;
+        height: 25em;
+    }
+    
+    .strands-humms {
+        display: block;
+        text-align: center;
+        background-color: #f3a78f;
+        height: 25em;
+    }
+
+
+    /* INSIDE OF FINAL DESCRIPTION */
+
+    .strands-tvl h1, .strands-abm h1 {
+        margin-left: 2.6em;
+    }
+
+    .strands-humms h1{
+        margin-left: 1.8em;
+    }
+
+    .strands-tvl p, .strands-abm p, .strands-humms p {
+        margin-top: 1em;
+        margin-left: 5em;
+        text-align: center;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 15px;
+        width: 60%;
+    }
+}

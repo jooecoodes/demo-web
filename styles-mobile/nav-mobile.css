@@ -1,0 +1,25 @@
+@media only screen and (max-width: 375px) {
+	nav .nav-top {
+		align-items: center;
+	}
+	
+	nav .nav-top img {
+		width: 75px;
+		height: 75px;
+	}
+
+	nav .nav-top h1 {
+		font-size: 15px;
+	}
+
+	nav .nav-bottom {
+		top: 70px;
+		left: 23px;
+	}
+
+	nav .nav-bottom ul li a {
+		margin-left: 15px;
+	}
+
+
+}

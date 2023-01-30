@@ -1,0 +1,158 @@
+@media only screen and (max-width: 375px) {
+
+
+    /* ** */
+
+    .contact-form-top-header {
+        left: 75px;
+        top: 3em;
+    }
+
+    .contact-info {
+        display: block;
+        width: 220px;
+        height: 375px;
+        left: 5em;
+        top: 15em;
+        background-color: transparent;
+    }
+
+    .contact-info-address, .contact-info-email, .contact-info-phone {
+        width: 220px;
+        font-family: 'IBM Plex Serif', serif;
+    }
+
+    .contact-info-address {
+        color: #333333;
+        margin-right: 2em;
+    }
+    
+    .contact-info-email {
+        margin-top: 1em;
+        color: #333333;
+        margin-right: 2em;
+        margin-left: 0em;
+    }
+    
+    .contact-info-phone {
+        margin-top: 1em;
+        color: #333333;
+        margin-left: 0;
+    }
+    
+    .contact-info-address p {
+        margin-top: 10px;
+    }
+    
+    .contact-info-email p {
+        margin-top: 10px;
+    }
+    
+    .contact-info-phone p  {
+        margin-top: 10px;
+    }
+
+    /* CONTACT FORM */
+
+    .contact-form-header {
+        color: #333333;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 150px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .contact-form {
+        background-color: white;
+        width: 625px;
+        display: block;
+        grid-template-columns: 258px 258px;
+        grid-template-rows: 100px 100px 100px;
+        column-gap: 100px;
+        margin-left: 15px;
+        margin-top: -30px;
+        font-family: "IBM Plex Serif", serif;
+    }
+
+    .contact-form-first-name input, .contact-form-last-name input, .contact-form-email input, .contact-form-subject input, .contact-form-message input, .contact-form-message input {
+        position: absolute;
+        left: 0;
+        right: 280px;
+        border: solid #333333 1.5px;
+        padding: 10px;
+    }
+
+    .contact-form-first-name, .contact-form-last-name, .contact-form-email, .contact-form-subject, .contact-form-message  {
+        margin-top: 50px;
+    }
+
+    .contact-form-button {
+        margin-top: 50px;
+        margin-left: 65px;
+        padding: 13px 100px;
+        border: solid #333333 1.5px;
+        font-family: 'IBM Plex Serif', serif;
+    }
+
+    /* MAILING FORM */
+
+    .mailing-form {
+        position: absolute;
+        top: 80em;
+        left: 0.9em;
+        background-color: #e6f1ff;
+        height: 200px;
+        width: 22em;
+    }
+
+    .mailing-form .mailing-form-header {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 64px;
+        margin-top: 20px;
+        color: #333333;
+    }
+
+    .mail-search-bar p {
+        margin-left: 85px;
+        width: 200px;
+        font-family: 'IBM Plex Serif', serif;
+        color: #333333;
+    }
+
+    .mail-search-bar {
+        position: relative;
+        margin-top: 1em;
+        margin-left: 0px;
+        background-color: transparent;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .mail-search-bar input {
+        margin-top: 10px;
+        margin-left: 5px;
+        position: absolute;
+        left: 0;
+        right: -245px;
+        padding: 10px;
+    }
+
+    .mail-search-bar button {
+        position: absolute;
+        top: 6em;
+        left: 40px;
+        padding: 13px 100px;
+        font-family: 'IBM Plex Serif', serif;
+        border: solid #333333 1.5px;
+    }
+    
+    .contact-footer {
+        position: absolute;
+        top: 95em;
+    }
+}

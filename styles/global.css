@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 20px	;
+}
+
+footer p {
+	position: absolute;
+	top: 0px;
+	left: 28em;
+}

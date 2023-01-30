@@ -1,0 +1,9 @@
+@media only screen and (max-width: 375px) {
+	html {
+		overflow-x: hidden;
+	}
+	body {
+		padding-top: 118px;
+		overflow-x: hidden;
+	}
+}

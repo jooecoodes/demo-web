@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+}
+/* LANDING PAGE */
+
+.landing-page {
+    position: relative;
+    width: 100%;
+    height: 25em;
+    background-color: #ecebeb;
+}
+
+.landing-page h1 {
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+}
+
+.landing-page p {
+    position: absolute;
+    width: 25em;
+    text-align: center;
+    margin-left: 31em;
+    top: 6em;
+    left: -10em;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+}
+
+/* ABOUT STRANDS*/
+
+.landing-page-bottom {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: #f5c2dd;
+}
+
+.landing-page-bottom h1 {
+    position: absolute;
+    top: 27px;
+    left: 16em;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+/* STRANDS */
+
+.strands {
+    width: 100%;
+    height: 48em;
+    background-image: url(../images/image-about-strands.webp);
+    display: flex;
+    justify-content: space-around;
+}
+
+.strands .tvl {
+    position: relative;
+    background-color: #e6deca;
+    width: 25%;
+    height: 75%;
+    margin-top: 80px;
+    margin-left: 150px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.strands .abm {
+    position: relative;
+    background-color: #c8e0fe;
+    width: 25%;
+    height: 75%;
+    margin-top: 80px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.strands .humms {
+    position: relative;
+    background-color: #f3a78f;
+    width: 25%;
+    height: 75%;
+    margin-top: 80px;
+    margin-right: 150px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* INSIDE */
+
+.strands .tvl h1 { 
+    position: absolute;
+    left: 150px;
+    top: 4em;
+}
+
+.strands .tvl p {
+    width: 15em;
+    position: absolute;
+    text-align: center;
+    top: 10em;
+    left: 2em;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.strands .abm h1 { 
+    position: absolute;
+    left: 135px;
+    top: 4em;
+}
+
+.strands .abm p {
+    width: 15em;
+    position: absolute;
+    text-align: center;
+    top: 10em;
+    left: 2em;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.strands .humms h1 { 
+    position: absolute;
+    left: 115px;
+    top: 4em;
+}
+
+.strands .humms p {
+    width: 15em;
+    position: absolute;
+    text-align: center;
+    top: 10em;
+    left: 2em;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.strands-number-tvl, .strands-number-abm, .strands-number-humms {
+    position: absolute;
+    top: -3em;
+    left: 8em;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #e8e6e6;
+}
+
+.strands-number-tvl .number-tvl, .strands-number-abm .number-abm, .strands-number-humms .number-humms {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 45px;
+    font-weight: 400;
+    position: absolute;
+    top: 13px;
+    left: 35px;
+}
+
+
+/* STRANDS FINAL DESCRIPTION */
+
+.strands-tvl {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6deca;
+    height: 25em;
+}
+
+.strands-abm {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #c8e0fe;
+    height: 25em;
+}
+
+.strands-humms {
+    display: flex;
+    text-align: center;
+    align-items: center;    
+    justify-content: center;
+    background-color: #f3a78f;
+    height: 25em;
+}
+
+/* HEADER */
+
+.strands-tvl h1, .strands-abm h1, .strands-humms h1 {
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 50px;
+    margin-right: 3em;
+}
+
+
+/* PARAGRAPH */
+
+.strands-tvl p, .strands-abm p, .strands-humms p {
+    margin-left: 3em;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 21px;
+    width: 52%;
+}
